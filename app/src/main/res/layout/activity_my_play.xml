@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyPlayActivity">
+
+
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/bounce_animation"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:lottie_fileName="8BallAnimationBouncePositive.json"
+        app:lottie_imageAssetsFolder="images"
+        />
+
+    <TextView
+        android:id="@+id/txt_prueba"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Haz una pregunta y agita el telefono"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:maxLines="4"
+        />
+
+</FrameLayout>
